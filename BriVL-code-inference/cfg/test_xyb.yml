@@ -1,0 +1,28 @@
+MODEL:
+    NAME: VL
+
+    ENCODER: 'hfl/chinese-roberta-wwm-ext'
+    TEXT_FEATURE_DIM: 768
+    TEXT_TRANSFORMER_HEAD: 4
+    TEXT_TRANSFORMER_LAYER: 4
+    MAX_TEXT_LEN: 80
+    
+    CNN: 'tf_efficientnet_b5_ns'
+    IMG_SIZE: 456
+    IMG_FEATURE_DIM: 2048
+    IMG_TRANSFORMER_HEAD: 4
+    IMG_TRANSFORMER_LAYER: 4
+    MAX_IMG_LEN: 37
+    BOX_GRID: 6
+
+    TOPK: 1
+    QUEUE_SIZE: 9600
+    MOMENTUM: 0.99
+    TEMPERATURE: 0.07
+    GRID_SIZE: 4
+    IS_EXTRACT: True
+
+DATASET:
+    NAME: 'XYBDataset_all' #['AICDataset', 'VLDataset', 'superDataset', 'AICDataset_boxes']
+    JSONPATH: '../data/jsonls/example.jsonl'
+    WORKERS: 8
