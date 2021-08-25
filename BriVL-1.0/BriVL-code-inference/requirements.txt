@@ -1,0 +1,14 @@
+lmdb==0.99
+timm==0.4.12
+easydict==1.9
+pandas==1.2.4
+jsonlines==2.0.0
+tqdm==4.60.0
+torchvision==0.9.1
+numpy==1.20.2
+torch==1.8.1
+transformers==4.5.1
+msgpack_numpy==0.4.7.1
+msgpack_python==0.5.6
+Pillow==8.3.1
+PyYAML==5.4.1
