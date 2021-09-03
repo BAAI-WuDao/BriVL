@@ -8,7 +8,7 @@ MODEL:
     MAX_TEXT_LEN: 80
     
     CNN: 'tf_efficientnet_b5_ns'
-    IMG_SIZE: 456
+    IMG_SIZE: 380
     IMG_FEATURE_DIM: 2048
     IMG_TRANSFORMER_HEAD: 4
     IMG_TRANSFORMER_LAYER: 4
