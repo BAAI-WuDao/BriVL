@@ -54,6 +54,8 @@ PyYAML==5.4.1
 pip install -r requirements.txt
 ```
 
+### BriVL的目标检测工具
+从此处获取BriVL的Bounding Box提取工具[BBox-extractor](https://github.com/chuhaojin/BriVL-BUA-applications/tree/master/bbox_extractor)。
 
 ### 特征提取与计算检索结果
 
