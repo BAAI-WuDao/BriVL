@@ -21,7 +21,7 @@ BriVL论文：[WenLan: Bridging Vision and Language by Large-Scale Multi-Modal P
 
 | 模型      | 语言 | 参数量（单位：亿） | 文件（file）                |
 | --------- | ---- | ------------------ | --------------------------- |
-| BriVL-1.0  | 中文 | 10亿                 | [BriVL-1.0-5500w.tar](https://wudaoai.cn/model/detail/BriVL)| 
+| BriVL-1.0  | 中文 | 10亿                 | [BriVL-1.0-5500w.tar](https://model.baai.ac.cn/model-detail/100018)| 
 
 
 
